@@ -17,7 +17,7 @@ mongoose
   // })
   // .then(() => {
   //   Recipe.insertMany(data)
-  //   .then(recipe => console.log(recipe.title))
+  //   .then(recipe => recipe.forEach (element => console.log(element.title))
   //   .catch(error => console.log('Error is:', error))
 
   // })
